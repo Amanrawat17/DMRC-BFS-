@@ -52,5 +52,52 @@ git clone https://github.com/Amanrawat17/DMRC-BFS-.git
 cd DMRC-BFS-
 DMRC-BFS-/  
 
+````
+#Flow chart 
+```` bash
++-----------------------------+
+|   Start Application         |
+|     (python app.py)        |
++-----------------------------+
+              |
+              v
++-----------------------------+
+|     Render index.html       |
++-----------------------------+
+              |
+              v
++-----------------------------+
+| User selects stations and    |
+|      clicks "Submit"        |
++-----------------------------+
+              |
+              v
++-----------------------------+
+|   Send data to /find_path   |
+|    endpoint (via app.js)    |
++-----------------------------+
+              |
+              v
++-----------------------------+
+|  app.py receives request     |
++-----------------------------+
+              |
+              v
++-----------------------------+
+|  Execute BFS algorithm to    |
+|     find the shortest path   |
++-----------------------------+
+              |
+              v
++-----------------------------+
+| Return results (path and     |
+|   distance) as JSON response |
++-----------------------------+
+              |
+              v
++-----------------------------+
+|  app.js updates UI with      |
+|  results and visualizes path  |
++-----------------------------+
 
 
