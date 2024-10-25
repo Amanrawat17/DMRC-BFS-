@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMRC Route Finder</title>
+    <link rel="stylesheet" href="static\static.css\style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script> <!-- Include D3.js -->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/">HOME</a>
+            <a href="/about">ABOUT BFS ALGO CONCEPT</a>
+            <a href="/contact">CONTACT US</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>DMRC Route Finder</h1>
+        <form id="routeForm">
+            <label for="source">Source Station:</label>
+            <select id="source" required></select>
+
+            <label for="destination">Destination Station:</label>
+            <select id="destination" required></select>
+
+            <button type="submit">Find Route</button>
+        </form>
+        <div id="result"></div>
+        <div id="graph"></div> <!-- Div for graph visualization -->
+    </div>
+    <script src="static\js\app.js"></script>
+</body>
+</html>
