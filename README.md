@@ -44,7 +44,7 @@ JavaScript (D3.js) to visualize the network. The route is highlighted as users c
 └── requirements.txt     # List of dependencies
 
 ````
-### Clone the Repository
+### Git Commands to Clone This Repository
 Use the following command to clone the repository to your local machine:
 
 ```bash
